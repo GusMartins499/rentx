@@ -28,7 +28,7 @@ Trace:
 
 npm manifest: 
   {
-    "name": "rentalx",
+    "name": "rentx",
     "version": "1.0.0",
     "main": "index.js",
     "license": "MIT",
