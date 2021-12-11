@@ -1,11 +1,12 @@
 import "./database";
-import "./shared/container";
+import "@shared/container";
 
 import express, { Request, NextFunction, Response } from "express";
 import "express-async-errors";
 import swaggerUi from "swagger-ui-express";
 
-import { AppError } from "./erros/AppError";
+import { AppError } from "@erros/AppError";
+
 import { router } from "./routes";
 import swaggerFile from "./swagger.json";
 
